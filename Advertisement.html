@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advert</title>
+    <style>
+        body{
+            background-color: black;
+            color:blanchedalmond;
+            overflow: hidden;
+        }
+    ul{
+        padding:0;
+        position:fixed;
+        list-style-type:none;
+        margin:0;
+        height: 100%;;
+        background-color:rgb(255, 255, 255);
+        width:100px;
+        border:solid;
+    }
+    li a{
+        display:block;
+        text-decoration: none;
+        padding:10px 2px;
+        border-bottom: solid;
+    }
+    li a:hover{
+        background-color: aqua;
+        color:aliceblue;
+    }
+    .active{
+        background-color: aqua;
+        color:aliceblue;
+    }
+    .ps{
+        position:relative;
+        left:400px;
+        color:yellow;
+        font-size: 30px;
+    }
+    .pss{
+        position:relative;
+        left:400px;
+        color:rgb(0, 255, 47);
+        font-size: 20px;
+    }
+    </style>
+</head>
+<body>
+    <b>
+    <ul>
+        <li><a href="Advertisement.html" class="active">Home</a></li>
+        <li><a href="nissan.html">Nissan</a></li>
+        <li><a href="toyota.html">Toyota</a></li>
+        <li><a href="benz.html">Mercedes Benz</a></li>
+        <li><a href="lambo.html">Lamborghini</a></li>
+        <li><a href="suzuki.html">Suzuki</a></li>   
+    </ul>
+    </b>
+    <h1 class="ps"> Greetings and a warm welcome to our innovative advertising platform!<br></h1>
+    <h1 id="pop" class="ps"></h1>
+    <script>
+        const timeout = setTimeout(welo, 5000);
+
+        function welo() {
+        document.getElementById("pop").innerHTML = "We're Thrilled To Have You Here!"}
+    </script>
+    <p id="sn1" class="pss"></p>
+    <script>
+        const snt1=setTimeout(wello,7000);
+        function wello(){
+            document.getElementById("sn1").innerHTML="At DIGIVERTS, we understand the power of effective advertising in today's dynamic digital landscape......"
+        }
+    </script>
+    <p id="sn2" class="pss"></p>
+    <script>
+        const snt2=setTimeout(wello1,9000);
+        function wello1(){
+            document.getElementById("sn2").innerHTML="Whether you're a small business owner, a marketing professional, or an aspiring entrepreneur......"
+        }
+    </script>
+    <p id="sn3" class="pss"></p>
+    <script>
+        const snt3=setTimeout(wello2,11000);
+        function wello2(){
+            document.getElementById("sn3").innerHTML="We're here to help you amplify your message, reach your target audience, and achieve your business goals."
+        }
+    </script>
+</body>
+</html>
